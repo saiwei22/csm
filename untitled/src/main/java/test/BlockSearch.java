@@ -33,6 +33,7 @@ public class BlockSearch {
         return -1;
     }
 }
+
 class Block{    //创建分块类
     private int max;
     private int starIndex;
