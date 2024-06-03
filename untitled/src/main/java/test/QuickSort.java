@@ -30,6 +30,7 @@ public class QuickSort {
                 }
                 start++;
             }
+
             temp=arr[end];
             arr[end]=arr[start];
             arr[start]=temp;
