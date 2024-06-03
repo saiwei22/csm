@@ -11,7 +11,6 @@ public class BlockSearch {
         int index = getIndex(blocks, arr, i);
         System.out.println(index);
     }
-
     public static int getIndex(Block[] blocks,int[] arr,int i) {
         int index = findIndex(blocks, i);
         if (index<0)
