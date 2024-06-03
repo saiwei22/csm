@@ -8,6 +8,7 @@ public class BlockSearch {
         Block b2=new Block(68,10,19);
         Block[] blocks={b1,b2};
         int i=99;
+
         int index = getIndex(blocks, arr, i);
         System.out.println(index);
     }
