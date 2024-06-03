@@ -23,6 +23,7 @@ public class QuickSort {
             System.out.print(i+",");
         }
     }
+
     public static void quick(int[] arr,int i,int j) {
         int start=i;
         int end=j;
