@@ -25,7 +25,6 @@ public class BlockSearch {
         }
         return -1;
     }
-
     private static int findIndex(Block[] blocks, int i) {
         for (int a=0;a<blocks.length;a++){
             if (i<=blocks[a].getMax())
