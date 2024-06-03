@@ -7,6 +7,8 @@ package test;
  *
  */
 public class QuickSort {
+
+
     public static void main(String[] args) {
         int[] arr= {6,1,2,7,9,3,4,5,10,8};//10-19
         for(int i=0;i<arr.length;i++){
@@ -23,7 +25,6 @@ public class QuickSort {
             System.out.print(i+",");
         }
     }
-
     public static void quick(int[] arr,int i,int j) {
         int start=i;
         int end=j;
